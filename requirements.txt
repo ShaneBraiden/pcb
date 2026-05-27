@@ -1,0 +1,24 @@
+# Core ML / training
+ultralytics>=8.3.0
+# torch / torchvision must be installed separately with CUDA support:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Image / array ops
+opencv-python>=4.9.0
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# Dataset tools
+pyyaml>=6.0
+tqdm>=4.66.0
+scikit-learn>=1.4.0       # stratified split
+requests>=2.31.0          # dataset download
+lxml>=5.0.0               # robust XML parsing
+
+# Web backend (Phase 4)
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9   # FastAPI file uploads
+websockets>=12.0

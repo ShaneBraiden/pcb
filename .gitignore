@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+dev/
+pcb/
+# Datasets and weights (large binaries)
+datasets/pcb/raw/
+datasets/pcb/images/
+datasets/pcb/labels/
+*.pt
+*.onnx
+*.tflite
+*.bin
+*.param
+backend/weights/*.pt
+backend/weights/*.onnx
+
+# Training outputs
+runs/
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
